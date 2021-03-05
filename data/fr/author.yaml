@@ -1,0 +1,20 @@
+# some information about you
+name: "Erwan Morvan"
+nickname: "Erwan"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Bonjour, je suis"
+image: "/images/my_head.jpg"
+
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "air1bzz@protonmail.com"
+  phone: "+33 6 75 43 18 80"
+
+# some summary about what you do
+summary:
+  - Je suis un développeur
+  - Je code en Go / Ruby / JavaScript
+  - J'aime particulièrement le Go
+  - J'aime créer de beaux programmes évolutifs
+  - J'aime aussi les abeilles 🐝

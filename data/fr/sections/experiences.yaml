@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Qos Energy
+    url: https://www.qosenergy.com/
+    location: La Chapelle/Erdre, France
+    # company overview
+    overview: Qantum® est une plateforme de collecte et d'analyse de données d'énergies renouvelables tout-en-un. Elle permet de rassembler les  données des actifs renouvelables sur une seule plateforme, quel que soit le type d'énergie ou la base de données.
+  positions:
+  - designation: Développeur back-end
+    start: Août 2017
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Design et développement de programmes d'acquisition de données et de synchronisation de données.
+    - Déploiement des applications.
+    - Analyse et propositions d'architecture du code pour les orientations de la roadmap.
+    - Participation à l'animation Scrum de mon équipe.
+    - Service de chat et de TMA pour les besoins internes.
+    - Veille technologique.
+
+  - designation: Stagiaire Développeur
+    start: Mai 2017
+    end: Août 2017
+    responsibilities:
+    - Création de nouveaux parsers de fichiers.
+    - Écriture de tests.
+    - Beaucoup d'apprentissage.
+
+- company:
+    name: DLFO
+    url: https://www.facebook.com/dlfolacorre
+    location: Carquefou, France
+    overview: Entreprise spécialisée dans la fabrication et la restauration d'orgues.
+  positions:
+  - designation: Facteur d'orgues
+    start: Septembre 2007
+    end: Novembre 2016
+    responsibilities:
+    - Menuiserie/Ébénisterie.
+    - Restauration.
+    - Entretiens et accords.
+    - Design et conception en DAO 3D.
+
+- company:
+    name: "Manufacture d'orgues Robert Frères"
+    url: http://orguesrobertfreres.com/
+    location: La Chapelle/Erdre, France
+    overview: Entreprise spécialisée dans la fabrication et la restauration d'orgues.
+  positions:
+  - designation: Facteur d'orgues
+    start: Septembre 2001
+    end: Novembre 2006
+    responsibilities:
+    - Menuiserie/Ébénisterie.
+    - Restauration.

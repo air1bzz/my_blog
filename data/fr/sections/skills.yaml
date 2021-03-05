@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Développement Go
+  logo: /images/sections/skills/go.png
+  summary: "J'utilise Go en tant que langage principal tous les jours. Je suis capable d'écrire des programmes évolutifs et intelligents, scalables et testables. J'aime ce langague pour sa concision, sa robustesse, sa gestion des erreurs, sa concurrence. Son environnement riche permet d'intégrer facilement des librairies axées cloud."
+  url: https://golang.org/
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "J'utilise ce système depuis de nombreuses années autant pour le travail qu'à la maison. Je suis capable d'écrire des scripts bash/shell. J'apprécie particulièrement les distributions Mint et Manjaro."
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "La plupart des programmes que j'écris ou utilise sont dockerisés et les images résultantes versionnées et  déployées."
+  url: https://www.docker.com/
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Quoique débutant avec kubernetes et notamment K3s, la plupart de mes nouveaux projets sont étudiés et prévus pour être déployés avec Kubernetes."
+  url: https://kubernetes.io/
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.png
+  summary: "Mes projets intègrent une librairie maison permettant d'intégrer un server Prometheus basique et modulaire. Les métriques sont explotées via Grafana."
+  url: https://prometheus.io/
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "J'ai l'habitude de travailler avec un work flow Git et je suis familiarisé avec l'environnement Gitlab."
+  url: https://git-scm.com/
+
+- name: Ruby
+  logo: /images/sections/skills/ruby.png
+  summary: "J'utilise couramment Ruby et j'ai quelques notions du framework Rails."
+  url: https://www.ruby-lang.org/

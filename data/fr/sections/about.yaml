@@ -1,0 +1,81 @@
+# section information
+section:
+  name: À propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Développeur back-end
+# your company information
+company:
+  name: Qos Energy
+  url: https://www.qosenergy.com/
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: |
+  Je suis un développeur passioné avec 4 ans d'expérience. Je créé principalement des programmes d'acquisition de données évolutifs. Je déploie avec [Kubernetes](https://kubernetes.io/) et je code en [Go](https://golang.org/).
+
+  Je suis aussi papa de deux merveilleux enfants Sibylle et Achille.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: air1bzz@protonmail.com
+
+- name: Github
+  icon: "fab fa-github"
+  url: https://www.github.com/air1bzz
+
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: https://www.gitlab.com/air1bzz
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: https://www.linkedin.com/in/erwan-morvan/
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 75
+  color: blue
+- name: Esprit d'équipe
+  percentage: 90
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: pink
+- name: Aprentissage
+  percentage: 80
+  color: sky
+- name: Bug fix
+  percentage: 75
+  color: orange
+- name: Humour
+  percentage: 85
+  color: green
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"
